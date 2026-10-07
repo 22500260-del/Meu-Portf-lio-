@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+    <link href="https://googleapis.com/css2?family=Balthazar&family=Beau+Rivage&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cor2">
+        <div class="cabecario">
+        <a href="#SobreMim">Sobre Mim</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Email">E-mail</a>
+        <a href="#Projetos">Projeto</a>
+        <a href="#Formulario">Formulario</a>
+        </div>
+    </div>
+
+    <div class="linha"></div>
+
+    <label class="theme-switch">
+        <input type="checkbox" id="theme-toggle">
+        <div class="slider">
+            <span class="icon sun">☀️</span>
+            <span class="icon moon">🌙</span>
+        </div>
+    </label>
+
+
+
+
+    <div id="SobreMim" class="conteudo">
+        <div class="container-foto">
+            <img class="foto" src="isa.jpg" alt="Foto Isadora">
+
+        </div>
+
+        <p class="apresentacao"> Sou interessada em criatividade, tecnologia
+            e desenvolvimento pessoal. Tenho paixão
+            por pintura e informática, áreas que me
+            permitem explorar novas ideias, aprender e
+            transformar minha criatividade em projetos.
+            Tenho um perfil curioso, independente e colaborativo. Gosto de pesquisar e
+            encontrar soluções para desafios, mas também valorizo aprender com outras pessoas.
+            Em trabalhos em equipe, costumo assumir responsabilidades,
+            organizar tarefas e ajudar o grupo a alcançar seus objetivos.</p>
+    </div>
+
+    <div id="Skills" class="secao-skills">
+        <p><span class="destaque">Soft</span> Skills</p>
+        <div class="secao-skills2">
+            <p><span class="destaque">Hard</span> Skills</p>
+        </div>
+    </div>
+
+   
+
+    <div id="lista">
+        <ul class="Soft">
+            <li><u>Liderança</u></li>
+            <li><u>Comunicação</u></li>
+            <li><u>Resolução de problemas</u></li>
+            <li><u>Empatia</u></li>
+            <li><u>Proatividade</u></li>
+            <li><u>Autonomia</u></li>
+            <li><u>Organização</u></li>
+        </ul>
+        <div class="secao-skills3">
+            <p><span class="destaque">Hard</span> Skills</p>
+        </div>
+        <ul class="Hard">
+            <li>PowerPoint</li>
+            <li>Excel</li>
+            <li>Word</li>
+            <li>Canva</li>
+            <li>Visual Studio/VS Code</li>
+        </ul>
+    </div>
+
+    <div class="linha"></div>
+    <img class="ladrilho" src="ladrilho.png" alt="">
+
+    <section id="Email" class="contato">
+        <h2 class="titulo-contato">Entre em Contato:</h2>
+        <div class="caixa-email">
+            <p class="texto-email">
+                <span class="palavra-email">Email:</span>
+                <a href="https://mail.google.com/mail/u/0/" class="link-email">
+                    isadoracamille88@gmail.com
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <img class="ladrilho" src="ladrilho.png" alt="">
+    <div class="linha"></div>
+
+    <main id="Projetos" class="conteudo-projetos">
+        <div class="topo-projetos">
+            <h2 class="titulo-projetos">Projetos Feitos Por Mim:</h2>
+            <a href="https://github.com/22500260-del" class="link-github">
+                <img src="icon gitgub.png" alt="GitHub" class="icone-github">
+            </a>
+        </div>
+
+        <div class="grade-projetos">
+            <a href="https://22500260-del.github.io/hibisco-floricultura-3/" class="card-projeto">
+                <img src="hisbisco floricultura.png" alt="Landing Page" class="foto-projeto">
+                <span class="nome-projeto">Landing Page</span>
+            </a>
+
+            <a href="https://22500260-del.github.io/tabela-peri-dica/" class="card-projeto">
+                <img src="pngtabela.png" alt="Tabela Periódica" class="foto-projeto">
+                <span class="nome-projeto">Tabela Periódica</span>
+            </a>
+        </div>
+    </main>
+
+    <div class="linha"></div>
+
+    <section id="Formulario" class="forms">
+        <div class="form-container">
+            <h2 class="titulo-contato">Entre em Contato:</h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="9584942e-a71a-4cbb-9d25-4ff803c71bc7">
+                <div class="input-group">
+                    <input type="text" id="nome"  name="nome" placeholder="Nome:" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email"  name="email" placeholder="Email:" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone:">
+                </div>
+
+                <div class="input-group">
+                    <textarea id="mensagem" name="mensagem" placeholder="Mensagem:" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <div class="linha"></div>
+    <footer class="rodape">
+
+        <div class="perfil">
+            <p class="nome">Isadora Camille</p>
+            <p class="cargo">Desenvolvedora | Estudante de Tecnologia</p>
+        </div>
+
+        <div class="redes">
+            <a href="https://github.com/22500260-del" title="GitHub">💻</a>
+            <a href="https://www.linkedin.com/in/isadora-camille-a48a53302/" title="LinkedIn">🌐</a>
+        </div>
+
+    </footer>
+
+
+<div id="custom-modal" class="modal-container">
+    <div class="modal-box">
+        <h3>Aviso do Sistema </h3>
+        <p id="modal-text">Mensagem padrao.</p>
+        <button id="modal-close" class="btn-modal">Fechar</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
